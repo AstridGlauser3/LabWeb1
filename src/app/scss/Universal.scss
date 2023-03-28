@@ -1,0 +1,57 @@
+
+body{
+    background: #ffffff;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+  font-family: cursive;  
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul{
+    width: 30%;
+}
+li{
+    border-radius: 2rem;
+    border:solid;
+    border-color: rgb(129, 129, 129);
+    background: rgb(255, 255, 255);
+    width: 200xp;
+    padding: 5px;
+    margin: 10px;
+    a{
+        margin: 30px;
+    }
+    &:hover{
+        border-color: rgb(75, 219, 255);
+        background: rgb(92, 92, 92);
+        a{
+            color: #ffffff;
+            margin: 30px;
+        }
+    }
+    
+    &::marker{
+        background: transparent;
+    }
+}
+img{
+    height: 600px;
+    width: 600px;
+    border-radius: 1rem;
+}
+progress{
+    accent-color: lightblue;  ;
+    &::-moz-progress-bar{
+        background: red;
+    }
+    &::-webkit-progress-value{
+        background: red;
+    }
+    &::-webkit-progress-bar{
+        background: #007bff;
+    }
+}
